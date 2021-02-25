@@ -4,6 +4,8 @@ human identification
 
 https://github.com/tccnchsu/human_identification
 (许教授GITHUB网址)
+https://www.python-course.eu/tkinter_buttons.php
+（TKinter教学网站）
 
 
 Test2.py(点就按钮更改画布颜色)
