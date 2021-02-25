@@ -9,10 +9,15 @@ https://www.python-course.eu/tkinter_buttons.php
 
 
 Test2.py(点就按钮更改画布颜色)
+
 Faces_register.py（将用户注册进数据库）
+
 Get_List.py（获取数据库中人像组别）
+
 Get_ListUser.py（获取特定组别中的人像）
+
 Faces_delete.py（删除已进行注册的人像记录）
+
 Faces_register.py（进行人像搜索，获取匹配度最高的Score）
 
 截至时间：2021/2/26 12:00
