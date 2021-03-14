@@ -14,8 +14,8 @@ import json
 request_url = "https://aip.baidubce.com/rest/2.0/face/v3/search"
 
 
-#C:/Users/Leiu/Desktop/图片/刘寅杰/刘寅杰_19981230.jpg
-with open('C:/Users/Leiu/Desktop/123.jpg','rb')as f:
+
+with open('C:/123.jpg','rb')as f:
     img_jpg = f.read()  # 以二进制读取图片
     img64 = base64.b64encode(img_jpg)  # 对图片进行base64编码
     params = {}
@@ -27,7 +27,7 @@ with open('C:/Users/Leiu/Desktop/123.jpg','rb')as f:
 
 
 params = urllib.parse.urlencode(params).encode()
-access_token = '24.fd9a12d5930bc3972e420d6c07fed82f.2592000.1616723726.282335-18630025'
+access_token = 'access_token'
 request_url = request_url + "?access_token=" + access_token
 headers = {'content-type': 'application/json'}
 response = requests.post(request_url, data=params, headers=headers)
